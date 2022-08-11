@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justify Content</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- TOP Navigation -->
+    <nav class="navbar">
+      <h1 class="brand">Flex Direction</h1>
+      <div class="menu">
+        <a href="#justify_start">Justify Start</a>
+        <a href="#justify_center">Justify Center</a>
+        <a href="#justify_end">Justify End</a>
+        <a href="#justify_space_around">Justify Space Around</a>
+        <a href="#justify_space_between">Justify Space Between</a>
+        <a href="#justify_space_evenly">Justify Space Evenly</a>
+      </div>
+    </nav>
+    <!-- End TOP navigation -->
+    <!-- PAGE NAVIGATION -->
+    <nav class="page_navigation">
+      <a href="/">Flex Direction</a>
+      <a href="/wrap.html">Flex Wrap</a>
+      <a href="/justifyContent.html">Justify Content</a>
+      <a href="/align_items.html">Align Items</a>
+      <a href="/align_content.html">Align Content</a>
+    </nav>
+    <!-- END PAGE NAVIGATION -->
+    <main>
+      <h1>Justify Content</h1>
+      <!-- Justify Content Flex-Start (Default) -->
+      <section id="justify_start">
+        <h3>Justify Flex start(Default)</h3>
+        <div class="flex justify_start">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
+        <pre>
+          Jika memakai flex-direction: row-reverse; 
+          maka content akan start dari kanan
+
+          .justify_start {
+            justify-content: flex-start;
+          }
+
+          Jika memakai flex-direction: row-reverse; 
+          maka content akan start dari kiri
+
+          .justify_start {
+            justify-content: start;
+          }
+        </pre>
+      </section>
+      <!-- End Justify Content Flex-Start -->
+      <!-- Justify Content Center -->
+      <section id="justify_center">
+        <h3>Justify center</h3>
+        <div class="flex justify_center">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
+        <pre>
+          .justify_center {
+            justify-content: center;
+          }
+        </pre>
+      </section>
+      <!-- End Justify Content Center -->
+      <!-- Justify Content Flex-End -->
+      <section id="justify_end">
+        <h3>Justify end</h3>
+        <div class="flex justify_end">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
+        <pre>
+          .justify_end {
+            justify-content: flex-end;
+          }
+
+          .justify_end {
+            justify-content: end;
+          }
+        </pre>
+      </section>
+      <!-- Justify Content Flex-end -->
+      <!-- Justify Content Space-Around -->
+      <section id="justify_space_around">
+        <h3>Justify Space-Around</h3>
+        <div class="flex justify_space_around">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
+        <pre>
+          .justify_space_around {
+            justify-content: space-around;
+          }
+        </pre>
+      </section>
+      <!-- END Justify Content Space-Around -->
+      <!-- Justify Content Space-Between -->
+      <section id="justify_space_between">
+        <h3>Justify Space-Between</h3>
+        <div class="flex justify_space_between">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
+        <pre>
+          .justify_space_between {
+            justify-content: space-between;
+          }
+        </pre>
+      </section>
+      <!-- END Justify Content Space-Between -->
+      <!-- Justify Content Space-Evenly -->
+      <section id="justify_space_evenly">
+        <h3>Justify Space-Evenly</h3>
+        <div class="flex justify_space_evenly">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
+        <pre>
+          .justify_space_evenly{
+            justify-content: space-evenly;
+          }
+        </pre>
+      </section>
+      <!-- END Justify Content Space-Evenly -->
+    </main>
+  </body>
+</html>

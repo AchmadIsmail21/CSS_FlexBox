@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wrap</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- TOP Navigation -->
+    <nav class="navbar">
+      <h1 class="brand">Flex Direction</h1>
+      <div class="menu">
+        <a href="#wrap">Wrap</a>
+        <a href="#no_wrap">No Wrap</a>
+        <a href="#wrap_reverse">Wrap Reverse</a>
+      </div>
+    </nav>
+    <!-- End TOP navigation -->
+    <!-- PAGE NAVIGATION -->
+    <nav class="page_navigation">
+      <a href="/">Flex Direction</a>
+      <a href="/wrap.html">Flex Wrap</a>
+      <a href="/justifyContent.html">Justify Content</a>
+      <a href="/align_items.html">Align Items</a>
+      <a href="/align_content.html">Align Content</a>
+    </nav>
+    <!-- END PAGE NAVIGATION -->
+
+    <main>
+      <h1>Flex Wrap</h1>
+      <section id="wrap">
+        <h3>Wrap</h3>
+        <div class="flex wrap">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>
+          <div>10</div>
+          <div>11</div>
+        </div>
+        <pre>
+          .wrap {
+            flex-wrap: wrap;
+          }
+        </pre>
+      </section>
+
+      <section id="no_wrap">
+        <h3>No Wrap</h3>
+        <div class="flex no_wrap">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>
+          <div>10</div>
+          <div>11</div>
+        </div>
+        <pre>
+          .no_wrap {
+            flex-wrap: nowrap;
+          }
+        </pre>
+      </section>
+      <section id="wrap_reverse">
+        <h3>Wrap Reverse</h3>
+        <div class="flex wrap_reverse">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+          <div>7</div>
+          <div>8</div>
+          <div>9</div>
+          <div>10</div>
+          <div>11</div>
+        </div>
+        <pre>
+          .wrap_reverse {
+            flex-wrap: wrap-reverse;
+          }
+        </pre>
+      </section>
+    </main>
+  </body>
+</html>
