@@ -12,9 +12,9 @@
     <nav class="navbar">
       <h1 class="brand">Flex Direction</h1>
       <div class="menu">
-        <a href="#justify_start">Justify Start</a>
-        <a href="#justify_center">Justify Center</a>
-        <a href="#justify_end">Justify End</a>
+        <a href="#align_start">Align Start</a>
+        <a href="#align_center">Align Center</a>
+        <a href="#align_end">Align End</a>
       </div>
     </nav>
     <!-- End TOP navigation -->
@@ -40,6 +40,7 @@
         <pre>
           .align_start{
             align-items: flex-start;
+            height: 200px;
           }
         </pre>
       </section>
@@ -56,25 +57,62 @@
         <pre>
           .align_center{
             align-items: center;
+            height: 200px;
           }
         </pre>
       </section>
       <!-- END Align Item Center -->
       <!-- Align Item End -->
-      <section id="align_center">
-        <h3>Align Items Start</h3>
-        <div class="flex align_center">
+      <section id="align_end">
+        <h3>Align Items End</h3>
+        <div class="flex align_end">
           <div>1</div>
           <div>2</div>
           <div>3</div>
         </div>
         <pre>
-          .align_start{
-            align-items: flex-start;
+          .align_end{
+            align-items: flex-end;
+            height: 200px;
           }
         </pre>
       </section>
       <!-- END Align Item End -->
+      <!-- Align Item Strecth -->
+      <section id="align_stretch">
+        <h3>Align Items stretch</h3>
+        <div class="flex align_stretch">
+          <div>red</div>
+          <div>blue</div>
+          <div>zzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzzzz zzzzzzzzzzzz</div>
+        </div>
+        <pre>
+          .align_stretch{
+            align-items: stretch;
+            height: 200px;
+            
+          }
+        </pre>
+      </section>
+      <!-- END Align Item Strecth -->
+      <!-- Align Items Baseline -->
+      <section id="align_baseline">
+        <h3>Align Items Baseline</h3>
+        <div class="flex align_baseline">
+          <div style="height: 30px">red</div>
+          <div style="height: 50px">blue</div>
+          <div style="height: 100px">
+            zzzzzzzzzzzzzzzzzzzzzzzz zzzzzzzzzzzzzzzzzz zzzzzzzzzzzz
+          </div>
+        </div>
+        <pre>
+          .align_baseline{
+            align-items: baseline;
+            height: 200px;
+          }
+        </pre>
+      </section>
+      <!-- END Align Item Baselin -->
     </main>
   </body>
 </html>
